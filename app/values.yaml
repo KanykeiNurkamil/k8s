@@ -8,7 +8,7 @@ database:
 replicaCount: 1
 
 image:
-  repository: kanykei/my-image
+  repository: kanykei/my-nginx-image
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "1.0"
